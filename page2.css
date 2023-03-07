@@ -114,6 +114,11 @@ html
     background: var(--txt-color);
     transform: scaleX(0);
     transition: transform 0.5s;
+    margin-left: 10px;
+}
+span.forget
+{
+    margin-left: 24px;
 }
 .links a:hover::after
 {    

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/87603dad33.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="teacher.css" />
+    <link rel="shortcut icon" href="/Images/icon1.jfif" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>Welcome!</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/Intro-Page/intro.html"
+          ><img src="/assests/daftar.svg" alt="logo"
+        /></a>
+      </div>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="/bundels/bundels.html">Bundles</a></li>
+          <li>
+            <a href="/teacher/teacher.html" style="color: black">Teacher</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="username">
+        <span><i class="fa-regular fa-user"></i>Hello,User</span>
+        <a href="/Intro-Page/intro.html" class="Log_btn"
+          ><button>Log Out</button></a
+        >
+      </div>
+    </header>
+
+    <section>
+      <div class="container-first">
+        <div id="button">
+          <button class="btn" onclick="filterObject('all')">Show All</button>
+          <button class="btn" onclick="filterObject('Arabic')">Arabic</button>
+          <button class="btn" onclick="filterObject('Chemsitry')">
+            Chemsitry
+          </button>
+          <button class="btn" onclick="filterObject('English')">English</button>
+        </div>
+
+        <div class="objects">
+          <div class="Chemsitry card" id="Chemsitry">
+            <div class="teacher-name">
+              <h2>Chemsitry</h2>
+            </div>
+            <div class="teacher-pic">
+              <img src="/assests/hamdy.svg" alt="teacher" />
+            </div>
+            <div class="start-teacher-btn btn">
+              <a href="/bundels/bundels.html" class="teacher-btn btn"
+                ><button>Go With Teacher</button></a
+              >
+            </div>
+          </div>
+
+          <div class="Arabic card" id="Arabic">
+            <div class="teacher-name">
+              <h2>عربي</h2>
+            </div>
+            <div class="teacher-pic">
+              <img src="/assests/hamdy.svg" alt="teacher" />
+            </div>
+            <div class="start-teacher-btn btn">
+              <a href="/bundels/bundels.html" class="teacher-btn btn"
+                ><button>Go With Teacher</button></a
+              >
+            </div>
+          </div>
+
+          <div class="English card" id="English">
+            <div class="teacher-name">
+              <h2>English</h2>
+            </div>
+            <div class="teacher-pic">
+              <img src="/assests/hamdy.svg" alt="teacher" />
+            </div>
+            <div class="start-teacher-btn btn">
+              <a href="/bundels/bundels.html" class="teacher-btn btn"
+                ><button>Go With Teacher</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="logo-fotter">
+        <div class="icon-daftar">
+          <img src="/assests/daftar.svg" alt="logo" />
+        </div>
+      </div>
+      <div class="location">
+        <div>
+          <h1>Nasr City ,Cairo<br />Egypt</h1>
+        </div>
+        <div class="footer-email">
+          <a href="#"
+            ><i class="fa-regular fa-envelope"></i>contact@daftar.com</a
+          >
+        </div>
+        <div>(111) 111-1111</div>
+      </div>
+      <div class="links_one">
+        <ul class="links_one_items">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <p>&copy;2023 Daftar Platform. All rights reserved.</p>
+      </div>
+      <div class="links_two">
+        <ul class="links_two_items">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instgram</a></li>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Who we are?</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="teacher.js"></script>
+</html>
